@@ -1,0 +1,132 @@
+{
+    "themes": [
+        {
+            "background": "rgb(51, 204, 204)",
+            "color": "white"
+        },
+        {
+            "background": "white",
+            "color": "rgb(51, 204, 204)"
+        },
+        {
+            "background": "#303f9f",
+            "color": "white"
+        },
+        {
+            "background": "white",
+            "color": "#303f9f"
+        },
+        {
+            "background": "white",
+            "color": "black"
+        },
+        {
+            "background": "black",
+            "color": "white"
+        }
+    ],
+    "menu": [
+        {
+            "text": "About",
+            "target": "about"
+        },
+        {
+            "text": "Skill",
+            "target": "skill"
+        }
+    ],
+    "welcome": {
+        "title": "Hello, I'm Nima!",
+        "subtitle": "Full Stack Dev | Open-Source Enthusiast | Reverse Engineer",
+        "socials": [
+            {
+                "type": "github",
+                "link": "https://github.com/nimvb"
+            },
+            {
+                "type": "twitter",
+                "link": "https://twitter.com/nimvb"
+            },
+            {
+                "type": "linkedin",
+                "link": "https://www.linkedin.com/in/nima-afzal-ahangaran-064757161/"
+            }
+        ]
+    },
+    "about": {
+        "title": "About",
+        "parts": [
+            {
+                "type": "paragraph",
+                "content": "I am enthusiastic about Martial Arts, Boxing, Volleyball and of course computer science."
+            },
+            {
+                "type": "paragraph",
+                "content": "In my opinion, computer sceine is like a <a href=\"https:\/\/daoistgate.com\/jianghu\/\">Jianghu<\/a> and fields such as AI, Software Engineering, Security, \u2026 are like sections of this Jianghu. So to become a great master, you should know kung-fu of most of these sections. But, there exists another kung-fu like <a href=\"https:\/\/en.wikipedia.org\/wiki\/List_of_The_Smiling,_Proud_Wanderer_characters\">\u2018Star Sucking\u2019<\/a> skill that can be used to absorb opponents internal energies and defeat them easily and its name is Reverse Engineering ;-)"
+            },
+            {
+                "type": "paragraph",
+                "content": "In addition, I refer programming languages as weapons in martial arts. No one can say which one is better than others because each of them has its own advantages and disadvantages in different situations. Accordingly, one of the main responsibility of the kung-fu master is recognizing the circumstances and making the best decision about picking the best weapon to win the battle."
+            },
+            {
+                "type": "text-emoji",
+                "content": "(*•̀ᴗ•́*)و ̑̑"
+            }
+        ]
+    },
+    "skill": {
+        "title": "Skill",
+        "parts": [
+            {
+                "type": "card",
+                "content": {
+                    "title": "Web",
+                    "description": "HTML5, CSS3, JS",
+                    "icons": [
+                        "html",
+                        "css",
+                        "js"
+                    ]
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "title": "Front-end Frameworks",
+                    "description": "React, JQuery, Bootstrap",
+                    "icons": [
+                        "react",
+                        "jquery",
+                        "bootstrap"
+                        
+                    ]
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "title": "Programming Languages",
+                    "description": "C/C++, C#, Python, Java",
+                    "icons": [
+                        "c",
+                        "cpp",
+                        "csharp",
+                        "python",
+                        "java"
+                    ]
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "title": "Back-end Frameworks",
+                    "description": "ASP.NET Core",
+                    "icons": [
+                        "asp"
+                        
+                    ]
+                }
+            }
+        ]
+    }
+}

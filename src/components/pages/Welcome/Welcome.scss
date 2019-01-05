@@ -1,0 +1,51 @@
+
+.welcome {
+    flex-direction: column;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+   
+    
+    
+
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+    //background: red;
+}
+
+.title {
+
+    font-family: Reem Kufi, sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 3rem;
+    padding-bottom: 1rem;
+
+}
+
+.subtitle{
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+    font-weight: 300;
+
+}
+
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    width:100%;
+    justify-content: center;
+}

@@ -1,0 +1,62 @@
+@-webkit-keyframes icon-wobble {
+  25% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  75% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+@keyframes icon-wobble {
+  25% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  75% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+.socialicon {
+  padding: 5px 15px;
+}
+
+.socialicon.animate-icons a {
+  color: inherit;
+  display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px transparent;
+}
+.socialicon.animate-icons a:hover,
+.socialicon.animate-icons a:focus,
+.socialicon.animate-icons a:active {
+  -webkit-animation-name: icon-wobble !important;
+  animation-name: icon-wobble !important;
+  -webkit-animation-duration: 0.75s !important;
+  animation-duration: 0.75s !important;
+  -webkit-animation-timing-function: ease-in-out !important;
+  animation-timing-function: ease-in-out !important;
+  -webkit-animation-iteration-count: 1 !important;
+  animation-iteration-count: 1 !important;
+}
